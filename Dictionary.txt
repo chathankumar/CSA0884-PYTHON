@@ -1,0 +1,15 @@
+my_dict = {
+    'name': 'Alice',
+    'age': 30,
+    'city': 'New York'
+}
+print("Items in the dictionary:")
+for key, value in my_dict.items():
+    print(key + " : " + str(value))
+print("\nKeys in the dictionary:")
+for key in my_dict.keys():
+    print(key)
+new_dict = my_dict.copy()
+print("\nCopied dictionary:")
+for key, value in new_dict.items():
+    print(key + " : " + str(value))

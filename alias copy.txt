@@ -1,0 +1,13 @@
+a = [1, 2, 3, 4, 5]
+b = a
+print("Initial state:")
+print("a:", a)
+print("b:", b)
+a.append(6)
+print("\nAfter adding 6 to list 'a':")
+print("a:", a)
+print("b:", b)
+if a == b:
+    print("\nChanges made in 'a' are reflected in 'b'")
+else:
+    print("\nChanges made in 'a' are not reflected in 'b'")
